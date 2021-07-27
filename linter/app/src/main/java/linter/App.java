@@ -3,8 +3,8 @@ import java.nio.file.*;
 import java.util.List;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
+    public static void baraa(String[] args){
+        System.out.println('H');
     }
 
     public static void main(String[] args) {
