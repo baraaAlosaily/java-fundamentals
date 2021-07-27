@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Arrays;
 public class Main {
 
 
@@ -17,11 +18,27 @@ public class Main {
         };
 
         int[] myArray= lowestTemp(weeklyMonthTemperatures);
-        System.out.println("The array that have minum average is :[");
+        System.out.print("The array that have minum average is :[");
         for (int i=0;i<myArray.length;i++){
-            System.out.println(myArray[i]+",");
+            System.out.print(myArray[i]+",");
         }
-        System.out.println(myArray[myArray.length-1]+"]");
+        System.out.print(myArray[myArray.length-1]+"]");
+        System.out.println();
+//        analyzeWeather(weeklyMonthTemperatures);
+        System.out.println(analyzeWeather(weeklyMonthTemperatures));
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+
+        String winner = tally(votes);
+        System.out.println(winner + " received the most votes!");
     }
 
     public static int[] roll( int n) {
@@ -70,5 +87,59 @@ public class Main {
        System.out.println("The min value is of average at index:"+averageCollection.indexOf(Collections.min(averageCollection)));
        return array[averageCollection.indexOf(Collections.min(averageCollection))];
     }
+    public static String analyzeWeather(int[][] array){
+        HashSet<Integer> hSetNumbers  = new HashSet<>();
+        for (int i=0;i<array.length;i++){
+            for (int j=0;j<array[i].length;j++){
+              hSetNumbers.add(array[i][j]);
+
+            }
+
+        }
+        List<Integer> cityList = new ArrayList<>(hSetNumbers);
+        Collections.sort(cityList);
+        int min =Collections.min(hSetNumbers);
+        int max =Collections.max(hSetNumbers);
+        System.out.println("High: " + max );
+        System.out.print("Low: " + min );
+
+        String missT="";
+        for (int i=min;i<=max;i++){
+            if (!cityList.contains(i)){
+                missT+="\nNever saw temperature:"+i;
+            }
+
+        }
+
+      return missT;
+    }
+    public static String tally(List<String> votes) {
+        Map<String,Integer> count  = new HashMap<>() ;
+        for ( String word : votes) {
+            if (! count.containsKey(word)) {
+                count.put(word, 1 ) ;
+            }
+
+            else {
+                int value = count.get(word) ;
+                value++ ;
+
+                count.put(word, value) ;
+            }
+        }
+        String mostCommons="";
+
+        for ( Map.Entry<String,Integer> e : count.entrySet() ) {
+
+            if (e.getValue() == Collections.max(count.values() )){
+
+                mostCommons=e.getKey() ;
+            }
+        }
+
+        return mostCommons;
+
+    }
+
 
 }
