@@ -2,6 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73dbd7a-8e15-484a-887d-b5967a74c9e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../basiclibrary/lib/src/main/java/basiclibrary/Library.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/main/java/linter/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/main/java/linter/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/main/resources/gates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/test/java/linter/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/resources/gates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/java-fundamentals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/java-fundamentals.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
@@ -26,6 +44,10 @@
       <change beforePath="$PROJECT_DIR$/../basiclibrary/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Main.class" afterDir="false" />
@@ -38,6 +60,28 @@
       <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stale_outputs_checked" beforeDir="false" afterPath="$PROJECT_DIR$/stale_outputs_checked" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/fileChanges/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/fileChanges/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/7.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/7.0.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/vcs-1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/app/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/build/classes/java/main/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/app/build/resources/main/gates.js" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/build/resources/main/gates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/app/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/app/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +106,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
+            <state relative-caret-position="-357">
               <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,6 +163,9 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -153,12 +200,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49756098" visible="true" weight="0.24962178" />
-      <window_info active="true" id="Favorites" order="5" sideWeight="0.502439" side_tool="true" visible="true" weight="0.24962178" />
+      <window_info id="Favorites" order="5" sideWeight="0.502439" side_tool="true" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -180,7 +227,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
+        <state relative-caret-position="-357">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
