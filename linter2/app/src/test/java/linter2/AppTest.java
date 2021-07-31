@@ -1,0 +1,70 @@
+package linter2;
+import org.junit.jupiter.api.Test;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import static linter2.App.*;
+import static org.junit.jupiter.api.Assertions.*;
+
+class AppTest {
+    @Test void testingSplinter(){
+        String noErrOut = "";
+        Path noErrorFile = Paths.get("../linter2/app/src/main/resources/gates.js");
+
+        assertEquals(noErrOut,javaScriptLinter(noErrorFile));
+        String oneErrOut = " Line 3 : Missing semicolon.\n" +
+                " Line 5 : Missing semicolon.\n" +
+                " Line 11 : Missing semicolon.\n" +
+                " Line 13 : Missing semicolon.\n" +
+                " Line 15 : Missing semicolon.\n" +
+                " Line 26 : Missing semicolon.\n" +
+                " Line 28 : Missing semicolon.\n" +
+                " Line 32 : Missing semicolon.\n" +
+                " Line 36 : Missing semicolon.\n" +
+                " Line 40 : Missing semicolon.\n" +
+                " Line 41 : Missing semicolon.\n" +
+                " Line 50 : Missing semicolon.\n" +
+                " Line 51 : Missing semicolon.\n" +
+                " Line 59 : Missing semicolon.\n" +
+                " Line 60 : Missing semicolon.\n" +
+                " Line 61 : Missing semicolon.\n" +
+                " Line 62 : Missing semicolon.\n" +
+                " Line 64 : Missing semicolon.\n" +
+                " Line 70 : Missing semicolon.\n" +
+                " Line 71 : Missing semicolon.\n" +
+                " Line 72 : Missing semicolon.\n" +
+                " Line 73 : Missing semicolon.\n" +
+                " Line 74 : Missing semicolon.\n" +
+                " Line 76 : Missing semicolon.\n" +
+                " Line 77 : Missing semicolon.\n" +
+                " Line 78 : Missing semicolon.\n" +
+                " Line 79 : Missing semicolon.\n" +
+                " Line 80 : Missing semicolon.\n" +
+                " Line 82 : Missing semicolon.\n" +
+                " Line 83 : Missing semicolon.\n" +
+                " Line 84 : Missing semicolon.\n" +
+                " Line 85 : Missing semicolon.\n" +
+                " Line 86 : Missing semicolon.\n" +
+                " Line 88 : Missing semicolon.\n" +
+                " Line 89 : Missing semicolon.\n" +
+                " Line 90 : Missing semicolon.\n" +
+                " Line 91 : Missing semicolon.\n" +
+                " Line 92 : Missing semicolon.\n" +
+                " Line 94 : Missing semicolon.\n" +
+                " Line 95 : Missing semicolon.\n" +
+                " Line 96 : Missing semicolon.\n" +
+                " Line 97 : Missing semicolon.\n" +
+                " Line 98 : Missing semicolon.\n" +
+                " Line 99 : Missing semicolon.\n" +
+                " Line 100 : Missing semicolon.\n" +
+                " Line 101 : Missing semicolon.\n";
+        Path oneErrorFile = Paths.get("src/main/resources/gates.js");
+        assertEquals(oneErrOut,javaScriptLinter(oneErrorFile));
+//
+//        String someErrOut = " Line 3 : Missing semicolon.\n"+" Line 5 : Missing semicolon.\n";
+//        Path someErrorsFile = Paths.get("src/main/resources/gates.js");
+//        assertEquals(someErrOut,javaScriptLinter(someErrorsFile));
+
+    }
+}
