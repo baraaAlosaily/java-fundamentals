@@ -10,9 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
     @Test void testingSplinter(){
-
-
-        // testing for a no errors js file
         String noErrOut = "";
         Path noErrorFile = Paths.get("../linter/app/src/main/resources/gates.js");
 
@@ -25,15 +22,10 @@ class AppTest {
 
         assertEquals(oneErrOut,javaScriptLinter(oneErrorFile));
 
-
-
-
         String someErrOut = "Line 3: Missing semicolon.\n"+"Line 5: Missing semicolon.\n";
         Path someErrorsFile = Paths.get("src/main/resources/testSomeError.js");
 
         assertEquals(someErrOut,javaScriptLinter(someErrorsFile));
-
-
 
     }
 }

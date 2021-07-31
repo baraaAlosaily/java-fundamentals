@@ -1,126 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="833cbd8c-f890-4aee-858f-4f7ed8ab9d1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/java-fundamentals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/java-fundamentals.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/basiclibrary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/linter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter2/app/src/main/resources/gates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter2/app/src/test/resources/gates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter2/resources/gates.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/app/src/test/java/basics/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/app/src/test/java/basics/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/stale_outputs_checked" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/stale_outputs_checked" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/app/src/main/java/linter/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/src/main/java/linter/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/app/src/main/java/linter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/src/main/java/linter/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/app/src/main/resources/gates.js" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/src/main/resources/gates.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/app/src/test/java/linter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/src/test/java/linter/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/resources/gates.js" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/resources/gates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/settings.gradle" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="145" selection-end-line="145" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#189#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#4630#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -140,6 +54,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectId" id="1w5Nkl1DlvJmL8tlw1FuwzSIqa4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -220,20 +135,12 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -244,6 +151,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -290,6 +198,17 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Main.class">
