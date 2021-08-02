@@ -40,6 +40,7 @@ public class Review extends ArrayList<Review> {
 
     public void setNumberOfStarrs(float numberOfStarrs) {
         if(numberOfStarrs <= 5 && numberOfStarrs >= 0) {
+//            System.out.println("baraa");
             this.numberOfStarrs = numberOfStarrs;
         }else {
             System.out.println("Enter review between 5 and 0");

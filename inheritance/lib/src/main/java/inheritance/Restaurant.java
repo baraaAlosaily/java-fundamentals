@@ -31,17 +31,19 @@ public class Restaurant extends Review{
         this.nameOfRes = nameOfRes;
     }
 
-    public float getNumberOfStarrs() {
-        return numberOfStarrs;
-    }
-
-    public void setNumberOfStarrs(float numberOfStarrs) {
-        if(numberOfStarrs>0||numberOfStarrs<=5){
-            this.numberOfStarrs = numberOfStarrs;
-        }else {
-            System.out.println("Enter number between 0 and 5");
-        }
-    }
+//    public float getNumberOfStarrs() {
+//        return numberOfStarrs;
+//    }
+//
+//    public void setNumberOfStarrs(float numberOfStarrs) {
+//        if(numberOfStarrs>0&&numberOfStarrs<=5){
+//            System.out.println("baraa");
+//            this.numberOfStarrs = numberOfStarrs;
+//        }else {
+//            System.out.println("Enter number between 0 and 5");
+//            return;
+//        }
+//    }
 
     public float getPriceCat() {
         return PriceCat;
@@ -67,11 +69,17 @@ public class Restaurant extends Review{
     }
 
     public void addReview(String body,String auther,float numberOfStarrs){
-        Review rev=new Review(body,auther,numberOfStarrs);
-        this.starsSum+= rev.getNumberOfStarrs();
-        this.revCounter+=1;
-        this.numberOfStarrs=this.starsSum/this.revCounter;
-        this.reviews.add(rev);
+        if (numberOfStarrs>0&&numberOfStarrs<=5){
+            Review rev=new Review(body,auther,numberOfStarrs);
+            this.starsSum+= rev.getNumberOfStarrs();
+            this.revCounter+=1;
+            this.numberOfStarrs=this.starsSum/this.revCounter;
+            this.reviews.add(rev);
+        }else {
+            System.out.println("Please add number beteen 0 and 5");
+            return;
+        }
+
     }
 }
 

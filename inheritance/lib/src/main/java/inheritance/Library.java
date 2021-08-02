@@ -6,10 +6,9 @@ package inheritance;
 public class Library {
     public static void main(String[]arg){
         Restaurant res=new Restaurant("Mcdonalds",5,2);
-
         res.addReview("good one","baraa",3);
         res.addReview("good food","Mohammad",5);
-        res.addReview("yumy ","Hydaya",3);
+        res.addReview("yumy ","Hydaya",5);
         System.out.println(res);
     }
 }
