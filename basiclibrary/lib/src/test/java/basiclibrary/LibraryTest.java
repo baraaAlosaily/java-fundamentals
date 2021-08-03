@@ -1,21 +1,11 @@
 
-
-import org.junit.Test;
-import static org.junit.Assert.*;
 package basiclibrary;
 
-import org.junit.jupiter.api.Test;
+
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static basiclibrary.Library.*;
-import static org.junit.jupiter.api.Assertions.*;
 public class LibraryTest {
-//    @Test public void testSomeLibraryMethod() {
-//        Library classUnderTest = new Library();
-//        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
-//    }
 @Test void temperature(){
     int[][] input = {
             {66, 64, 58, 65, 71, 57, 60},
@@ -24,7 +14,7 @@ public class LibraryTest {
             {65, 56, 55, 52, 55, 62, 57}
     };
 
-    String output ="\nnever saw temperature 63"+"\nnever saw temperature 67"+"\nnever saw temperature 68"+"\nnever saw temperature 69";
+    String output ="\nNever saw temperature:63"+"\nNever saw temperature:67"+"\nNever saw temperature:68"+"\nNever saw temperature:69";
 
     assertEquals(output,  analyzingWeatherData(input));
 
